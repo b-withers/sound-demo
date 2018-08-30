@@ -1,7 +1,8 @@
 body{
     background-image: url("../images/bg1.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar{
