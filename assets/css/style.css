@@ -1,0 +1,19 @@
+body{
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    margin-bottom: 2%;
+}
+
+#basicSound{
+    margin-top: 35%;
+    font-weight: bold;
+}
+
+img {
+    padding:2px;
+    border:2px solid #ffffff;
+ }
