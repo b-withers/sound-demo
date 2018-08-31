@@ -23,7 +23,7 @@ function startTimer(){
       span.innerHTML = counter;
 		}
 		//when counter === 0 play sound
-    if (counter === 0) {
+    if (counter === 2) {
         timerSound.play();
         clearInterval(counter);
     }
