@@ -12,7 +12,7 @@ body {
 #basicSound {
 	margin-top: 30%;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 20px;
 	border-color: #37ff00;
 }
 
@@ -20,17 +20,18 @@ img {
 	padding: 2px;
 	border: 2px solid #ffe100;
 	margin-bottom: 2%;
-	height: 75%;
-	width: 75%;
+	height: 80%;
+	width: 80%;
 }
 
 #startClock {
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	margin-top: 34%;
 	border-color: #37ff00;
 }
 
-#controls {
-	border-color: red;
+#hoverSound a{
+	color: white;
+	font-size: 20px;
 }

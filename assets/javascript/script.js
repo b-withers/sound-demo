@@ -39,8 +39,21 @@ $(document).ready(function () {
 	});
 
 
+	$("nav ul li").hover(function(){
+		nav_audio.play();
+		},
+function(){
+		nav_audio.load();
+});
 
 
+
+
+$('a.hover').mouseenter(function(){
+  var audioElement = document.createElement('audio');
+  audioElement.setAttribute('src','assets/sounds/hover.wav');
+  audioElement.play();
+});
 
 
 
