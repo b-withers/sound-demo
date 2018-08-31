@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+
+//SIMPLE BUTTON CLICK SOUND
 //basic on click with jquery
 //create variable for the audio file
 var basicSound = new Audio('assets/sounds/basicSound.mp3');
@@ -11,6 +13,8 @@ $("#basicSound").on("click", function () {
     basicSound.play();
 });
 
+
+//COUNTDOWN TIME SOUND
 //create variable for audio file
 var timerSound = new Audio('assets/sounds/timerSound.wav');
 //function for simple timer with start button
@@ -33,6 +37,9 @@ function startTimer(){
 $("#startClock").click(function(){
     startTimer();
  });
+
+
+ 
 
 
 
